@@ -1,0 +1,75 @@
+/* Movie Table */
+.movie-table-container {
+  margin-top: 1rem;
+}
+
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  text-align: left;
+  font-size: 0.875rem;
+  color: #4c51bf;
+}
+
+.table-heading {
+  padding: 0.75rem 1rem;
+  background-color: #4c51bf;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.movie-row:nth-child(even) {
+  background-color: #efeef5;
+}
+
+.movie-cell {
+  padding: 0.75rem 1rem 1rem 2rem;
+}
+
+.movie-poster {
+  width: 5rem;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5rem;
+  border-width: 0.15rem;
+}
+.movie-poster:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+.movie-title {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  font-size: medium;
+  padding: auto;
+}
+
+.genre-tag {
+  padding: 0.25rem 0.5rem;
+  background-color: #9ca3af;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  color: #ffffff;
+}
+
+.remove-button {
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  background-color: #4c51bf;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.remove-button:hover {
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  background-color: red;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ffffff;
+  transform: scale(1.04);
+}
